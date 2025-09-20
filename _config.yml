@@ -1,0 +1,85 @@
+# Book settings (simplified for MyST compatibility)
+title: "BD4EO Course: EO Processing Workflows & FAIR Data"
+author: "Anne Fouilloux"
+logo: "images/bd4eo_logo.png"
+
+# MyST configuration is now handled in myst.yml
+# This file provides Jupyter Book specific settings
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: force
+  timeout: 120
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/your-username/bd4eo-course
+  path_to_book: docs
+  branch: main
+
+# Launch button configuration
+launch_buttons:
+  notebook_interface: classic
+  binderhub_url: https://mybinder.org
+  colab_url: https://colab.research.google.com
+  thebe: true
+
+# HTML configuration
+html:
+  favicon: "images/favicon.ico"
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+  baseurl: https://your-username.github.io/bd4eo-course/
+  comments:
+    hypothesis: false
+    utterances: false
+
+# LaTeX configuration for PDF builds
+latex:
+  latex_engine: xelatex
+  latex_documents:
+    targetname: bd4eo_course.tex
+
+# Sphinx configuration
+sphinx:
+  config:
+    html_show_copyright: false
+    html_theme_options:
+      use_download_button: true
+      repository_url: https://github.com/your-username/bd4eo-course
+      use_issues_button: true
+      use_repository_button: true
+      use_edit_page_button: true
+      launch_buttons:
+        binderhub_url: https://mybinder.org
+        colab_url: https://colab.research.google.com
+    html_title: "BD4EO Course"
+    language: en
+  extra_extensions:
+    - sphinx_design
+    - sphinx_external_toc
+    - sphinx_togglebutton
+    - sphinx_copybutton
+    - sphinx_thebe
+
+# MyST markdown extensions (complementing myst.yml)
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence  
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist
+    - fieldlist
+    - attrs_inline
+    - attrs_block
+
+# Only allow notebooks and markdown
+only_build_toc_files: true

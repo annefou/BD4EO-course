@@ -1,0 +1,110 @@
+# MyST Configuration for Jupyter Book 2.*
+version: 1
+project:
+  title: "BD4EO Course: EO Processing Workflows & FAIR Data"
+  subtitle: "Big Data Foundations for Earth Observation"
+  description: |
+    A comprehensive course on modern Earth Observation processing workflows and FAIR 
+    (Findable, Accessible, Interoperable, Reusable) data principles, designed for 
+    lecturers, industry professionals, and government representatives.
+  keywords:
+    - Earth Observation
+    - FAIR data
+    - Python
+    - Cloud computing
+    - Open science
+    - EO processing
+    - Data management
+  authors:
+    - name: Anne Fouilloux
+      orcid: 0000-0002-1784-2920
+      email: annef@simula.no
+      affiliations:
+        - Simula Research Laboratory
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Writing
+  affiliations:
+    - name: Simula Research Laboratory
+      address: |
+        Martin Linges vei 25
+        1364 Fornebu, Norway
+      url: https://www.simula.no/
+      ror: https://ror.org/01f5qn821
+  github: https://github.com/annefou/bd4eo-course
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  date: 2025
+  venue:
+    title: "BD4EO Course"
+    location: "Riga, Latvia"
+  funding:
+    - statement: |
+        This course was developed as part of the Pangeo community initiative 
+        and ESA's commitment to open science and FAIR data principles.
+  open_access: true
+  subject: Earth and Environmental Sciences
+  
+site:
+  title: "BD4EO Course Materials"
+  template: book-theme
+  nav:
+    - title: "Course Overview"
+    - title: "Session 1: EO Workflows"  
+    - title: "Session 2: FAIR Data"
+    - title: "Exercises"
+    - title: "Resources"
+  actions:
+    - title: "View on GitHub"
+      url: https://github.com/annefou/bd4eo-course
+  domains:
+    - annefou.github.io
+  options:
+    favicon: images/favicon.ico
+    logo: images/BD4EO-AF.png
+    logo_text: "BD4EO Course"
+    hide_title: false
+    hide_outline: false
+    hide_footertext: false
+
+# MyST Markdown configuration
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist
+
+# Execution settings
+execute:
+  execute_notebooks: auto
+  cache: .jupyter_cache
+  timeout: 120
+
+# Export settings
+exports:
+  - format: tex
+    template: null
+    output: exports/bd4eo-course.tex
+
+# References
+references:
+  bibliography: 
+    - references.bib
+
+# Thebe configuration for live code execution
+thebe:
+  server:
+    url: "https://mybinder.org"
+    repo: "annefou/bd4eo-course"
+    ref: "main"
