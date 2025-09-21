@@ -19,10 +19,10 @@ By the end of this session, participants will:
 
 ## Agenda
 
-- Part 1: FAIR Principles in Earth Observation Context (15 minutes)
-- Part 2: FAIR Implementation Examples in Earth Observation (20 minutes)
-- Part 3: Organizational FAIR Assessment Exercise (15 minutes)
-- Part 4: Implementation Planning & Business Cases (5 minutes)
-- Part 5: Key Takeaways and Next Steps (5 minutes)
+- **Part 1**: FAIR Principles in Earth Observation Context *(15 minutes)*
+- **Part 2**: FAIR Implementation Examples in Earth Observation *(20 minutes)*
+- **Part 3**: Organizational FAIR Assessment Exercise *(15 minutes)*
+- **Part 4**: Implementation Planning & Business Cases *(5 minutes)*
+- **Part 5**: Key Takeaways and Next Steps *(5 minutes)*
 
 

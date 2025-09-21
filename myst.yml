@@ -7,6 +7,8 @@ project:
     A comprehensive course on modern Earth Observation processing workflows and FAIR 
     (Findable, Accessible, Interoperable, Reusable) data principles, designed for 
     lecturers, industry professionals, and government representatives.
+  plugins:
+    - add-jupyterhub-button.mjs
   keywords:
     - Earth Observation
     - FAIR data

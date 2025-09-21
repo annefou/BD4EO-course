@@ -12,7 +12,10 @@
 
 Welcome to the course materials for understanding modern Earth Observation processing workflows and implementing FAIR (Findable, Accessible, Interoperable, Reusable) data principles in professional environments.
 
-![QR Code for the course material](images/main-QRcode.png)
+```{figure} images/main-QRcode.png
+:width: 400px
+QR-Code of the EO Processing Workflows & FAIR Data course material
+```
 
 ## Course Overview
 
@@ -41,7 +44,7 @@ Rather than focusing purely on technical details, we emphasize:
 Technical foundation demonstrating cloud-native EO processing, Python ecosystem, and operational workflows through live demonstrations of ESA services.
 
 +++
-[Go to Session 1 →](session1/overview.md)
+[Go to Session 1 →](session-1/agenda.md)
 ```
 
 ```{grid-item-card} Session 2: FAIR Data & Open Science  
@@ -55,7 +58,7 @@ with operational examples, readiness discussion, and
 introduction to implementation approaches.
 
 +++
-[Go to Session 2 →](session2/overview.md)
+[Go to Session 2 →](session-2/agenda.md)
 ```
 ````
 ## Key Learning Outcomes

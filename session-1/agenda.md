@@ -16,10 +16,9 @@ By the end of this session, participants will:
 
 ## Agenda
 
-- **Part 1**: Modern EO Processing Landscape (15 minutes)
-- **Part 2**: Python Ecosystem for EO (25 minutes)
-- **Part 3**: EOPF Sample Service Demonstration (25 minutes)
-- **Part 4**: End-to-End Workflow Integration (10 minutes)
-- **Part 5**: Wrap-up & Key Takeaways (5 minutes)
+- **Part 1**: Modern EO Processing Landscape *(20 minutes)*
+- **Part 2**: Python Ecosystem for EO *(30 minutes)*
+- **Part 3**: EOPF Sample Service Demonstration *(25 minutes)*
+- **Part 5**: Wrap-up & Key Takeaways *(5 minutes)*
 
 
