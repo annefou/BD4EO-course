@@ -1,5 +1,6 @@
 # BD4EO Course: EO Processing Workflows & FAIR Data
 
+
 ```{margin}
 **Authors**: Anne Fouilloux  
 **Affiliation**: Simula Research Laboratory  
@@ -7,20 +8,24 @@
 **Location**: Riga  
 **Sessions**: Tuesday, 09:10-10:30 & 11:00-12:00
 ```
+![EO Processing Workflows & FAIR Data](images/main-image.png)
 
 Welcome to the course materials for understanding modern Earth Observation processing workflows and implementing FAIR (Findable, Accessible, Interoperable, Reusable) data principles in professional environments.
+
+![QR Code for the course material](images/main-QRcode.png)
 
 ## Course Overview
 
 This course bridges the gap between technical EO processing capabilities and strategic data management approaches, designed specifically for **lecturers, industry professionals, and government representatives** who need to understand and implement modern EO workflows in their organizations.
 
-### What Makes This Course Different
+## What Makes This Course Different
 
-Rather than focusing purely on technical implementation details, we emphasize:
-- **Practical value** of modern EO processing approaches for real-world applications
-- **Implementation strategies** for FAIR data principles across different organizational contexts
-- **Organizational readiness** assessment and planning for sustainable data practices
-- **Real-world examples** from ESA's operational services demonstrating successful FAIR implementation
+Rather than focusing purely on technical details, we emphasize:
+
+* **Practical applications** showing how cloud-native EO processing solves real workflow challenges
+* **FAIR principles awareness** applied specifically to Earth Observation contexts  
+* **Operational examples** from ESA's platforms (EOPF, EarthCODE) demonstrating working implementations
+* **Hands-on exploration** of modern tools and workflows you can continue using
 
 ## Session Structure
 
@@ -45,53 +50,50 @@ Technical foundation demonstrating cloud-native EO processing, Python ecosystem,
 
 **Tuesday 11:00-12:00 (60 minutes)**
 
-Strategic implementation of FAIR principles with business case development, organizational assessment, and action planning for sustainable data practices.
+FAIR principles awareness applied to Earth Observation, 
+with operational examples, readiness discussion, and 
+introduction to implementation approaches.
 
 +++
 [Go to Session 2 →](session2/overview.md)
 ```
 ````
-
 ## Key Learning Outcomes
 
 By completing this course, you will:
 
-**Technical Understanding:**
-- Recognize the evolution and benefits of cloud-native EO processing
-- Understand the role of Python and modern data formats in EO workflows
-- Appreciate the technical foundations that enable FAIR data practices
+**Technical Foundation:**
+- **Understand** the evolution from traditional to cloud-native EO processing and why it matters
+- **Experience** modern Python tools (Xarray, Dask, STAC) through hands-on demonstrations
+- **Explore** ESA's operational cloud platforms and real EO workflows
+- **Recognize** how technical approaches enable scalable, collaborative research
 
-**FAIR Implementation Capabilities:**
-- Assess your organization's current FAIR maturity across all four principles
-- Design implementation strategies for making data Findable, Accessible, Interoperable, and Reusable
-- Create actionable plans with realistic timelines and resource requirements
-- Connect with communities and standards that support FAIR implementation
+**FAIR Data Principles:**
+- **Understand** the FAIR principles and their specific relevance to Earth Observation
+- **Recognize** FAIR implementation examples in operational EO systems like EarthCODE and EOPF
+- **Assess** your organization's current FAIR readiness and implementation priorities
+- **Connect** FAIR principles to effective EO data use and research applications
+
+**Implementation Capabilities:**
+- **Design** implementation strategies for making EO data Findable, Accessible, Interoperable, and Reusable
+- **Create** actionable plans with realistic timelines and resource requirements
+- **Evaluate** organizational readiness for adopting cloud-native and FAIR approaches
+- **Identify** business cases and benefits for modern EO data management
 
 **Professional Network:**
-- Connect with ESA's operational services and expert communities
-- Access ongoing support through platforms like EarthCODE and Pangeo
-- Build relationships with peers facing similar data management challenges
+- **Connect** with ESA's operational services and expert communities (EarthCODE, EOPF, Pangeo)
+- **Access** ongoing support through platforms and forums
+- **Build** relationships with peers facing similar data management challenges
+- **Join** communities that support continued learning and implementation
 
 ## Interactive Learning Approach
 
-This course combines multiple learning modalities:
+This course combines multiple learning approaches:
 
-**Live Demonstrations:** Real-world exploration of ESA's Cubes & Clouds {cite}`cubes_clouds_2024`, EOPF Sample Service {cite}`eopf_sample_service`, and EarthCODE {cite}`earthcode_2025` platforms
-
-**FAIR Assessment Exercises:** Sector-specific group work on evaluating and improving data findability, accessibility, interoperability, and reusability
-
-**Hands-on Tools:** Interactive notebooks for organizational FAIR maturity assessment and implementation planning
-
-**Community Engagement:** Direct connection to ongoing professional communities and support networks
-
-## How to Use These Materials
-
-This Jupyter Book contains everything you need for the two BD4EO sessions:
-
-- **[Session 1](session1/overview.md)**: Complete materials for the EO processing workflows session, including live demo examples
-- **[Session 2](session2/overview.md)**: Full content for FAIR data principles with interactive assessment tools
-- **[Interactive Notebooks](session2/fair_notebook.ipynb)**: Self-assessment tools you can use to evaluate your organization's FAIR maturity
-- **Supporting Resources**: Links to ESA services, community platforms, and continued learning opportunities
+- **Live Demonstrations:** Real-world exploration of ESA's EOPF Sample Service and EarthCODE platforms with hands-on Python examples
+- **Interactive Discussions:** Group reflection on FAIR principles applied to Earth Observation contexts
+- **Practical Examples:** Concrete EO workflow scenarios demonstrating cloud-native processing benefits
+- **Resource Connections:** Introduction to ongoing professional communities and platforms for continued learning
 
 ## ESA Context
 
@@ -101,25 +103,6 @@ This course showcases ESA's comprehensive approach to modern EO processing and F
 - **[EOPF Sample Service](https://zarr.eopf.copernicus.eu/)**: Next-generation processing framework with Zarr optimization {cite}`eopf_sample_service`
 - **[EarthCODE](https://earthcode.esa.int)**: Comprehensive FAIR implementation across the EO ecosystem {cite}`earthcode_2025`
 - **[Copernicus Data Space](https://dataspace.copernicus.eu/)**: Operational cloud platform for EO data access and processing {cite}`copernicus_data_space`
-
-## Getting Started
-
-### For Individual Learning
-1. Review the [course schedule](schedule.md) to understand session flow
-2. Explore [Session 1](session1/overview.md) for technical foundations
-3. Work through [Session 2](session2/overview.md) for strategic implementation
-4. Complete the [practical exercises](exercises/fair_assessment.md) for your organization
-
-### For Organizational Implementation
-1. Use the [FAIR assessment tools](session2/fair_notebook.ipynb) to evaluate current maturity across all four principles
-2. Identify priority areas for improvement in data findability, accessibility, interoperability, and reusability
-3. Adapt the [implementation planning templates](session2/implementation_planning.md) for your organizational context
-4. Connect with relevant [communities and resources](resources/community.md) for ongoing support
-
-### For Course Adaptation
-1. Review the [Google Docs templates](materials/google_docs.md) for interactive elements
-2. Explore the [additional resources](materials/additional_resources.md) for expanded content
-3. Access the [presentation slides](materials/presentation_slides.md) for adaptation
 
 ## Prerequisites
 
@@ -143,14 +126,14 @@ To fully engage with the interactive elements:
 ## Support and Community
 
 **During the Course:**
-- Real-time Q&A through shared Google Docs
-- Direct interaction with instructor and ESA service experts
+- Real-time Q&A through shared Document (link to be provided by the instructor at the beginning of the course)
 - Peer collaboration through group exercises
 
 **After the Course:**
 - Continued access to all course materials and updates
-- Community support through [EarthCODE Discourse Forum](https://discourse-earthcode.eox.at/)
-- Professional network via [Pangeo Community](https://pangeo.io/) {cite}`pangeo_community` and ESA initiatives
+- EarthCODE Community support to publish datasets and workflows [EarthCODE Discourse Forum](https://discourse-earthcode.eox.at/)
+- EOPF Community support to learn more about EOPF Zarr data format [EOPF Discourse](https://discourse.eopf.copernicus.eu)
+- Worldwide network via [Pangeo Community](https://pangeo.io/) {cite}`pangeo_community` and ESA initiatives
 
 ## Acknowledgments
 
@@ -169,8 +152,6 @@ These course materials are made available under **Creative Commons Attribution 4
 - Contribute feedback and suggestions for continuous improvement
 
 ---
-
-**Ready to begin?** Start with [Session 1: EO Processing Workflows & Python](session1/overview.md) to establish the technical foundation, then proceed to [Session 2: FAIR Data & Open Science](session2/overview.md) for strategic implementation guidance.
 
 ## Bibliography
 
