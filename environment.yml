@@ -1,0 +1,41 @@
+name: eopf-zarr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xarray
+  - xarray-eopf>=0.1.1
+  - xcube-eopf>=0.1.0
+  - xcube-stac
+  - folium
+  - graphviz
+  - mapclassify
+  - matplotlib=3.10.0
+  - matplotlib-inline=0.1.7
+  - bottleneck=1.4.2
+  - fsspec
+  - numpy=1.26.4
+  - mystmd
+  - myst-nb-bokeh
+  - cartopy
+  - gdal
+  - libgdal-jp2openjpeg
+  - jupyterlab-myst
+  - python-graphviz
+  - pystac-client
+  - zarr<3
+  - tqdm
+  - geopandas
+  - dask
+  - rioxarray
+  - nbformat
+  - ipykernel
+  - scikit-image
+  - s3fs
+  - onnxruntime
+  - netcdf4
+  - hvplot
+  - bokeh
+  - holoviews
+  - openeo>=0.44.0
+  - pip
