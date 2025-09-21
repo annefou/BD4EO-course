@@ -52,12 +52,3 @@ This session provides the technical foundation for:
 - EO College: https://eo-college.org/
 - CEOS OpenSearch: http://ceos.org/
 
-### Interactive Session Notes
-
-**Live Collaboration:** Use our shared Google Doc for:
-- Real-time questions during demonstrations
-- Notes from hands-on explorations
-- Discussion of workflow challenges in your organization
-- Resource sharing among participants
-
-**Google Doc Link:** [Session 1 Collaborative Notes]
