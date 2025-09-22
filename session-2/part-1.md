@@ -1,6 +1,10 @@
 # Part 1: FAIR Principles and Open Science in Earth Observation Context 
 
 
+<iframe src="https://docs.google.com/presentation/d/1QrRkXSZeFpTzDUGIRyWWIqkkpN8e2fOM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
 ## What is FAIR?
 
 FAIR principles ensure that Earth Observation data and research outputs are:
