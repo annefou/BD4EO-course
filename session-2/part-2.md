@@ -1,5 +1,16 @@
 # Part 2: FAIR Implementation Examples in Earth Observation 
 
+:::{tip} Exercise
+ 
+During the session-1, we learned that using STAC catalog makes it easier to find resources in Python. 
+In small groups, explore and discuss the Findability of different STAC catalogs e.g. try to assess if the metadata and data have persistent identifiers (F1), metadata (F2), etc:
+
+- CDSE STAC API: https://browser.stac.dataspace.copernicus.eu/?.language=en
+- EOPF Sample Service STAC API: https://stac.browser.user.eopf.eodc.eu/?.language=en
+- EODAG STAC API: https://radiantearth.github.io/stac-browser/#/external/hda.data.destination-earth.eu/stac
+- ESA Open Science Catalog Example: https://opensciencedata.esa.int/workflows/delta-nbr-workflow-example/record
+:::
+
 ## Example 1: EarthCODE Comprehensive Platform (7 minutes)
 
 **Live Demo:** https://opensciencedata.esa.int/

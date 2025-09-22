@@ -8,14 +8,14 @@
 ## Exercise Framework
 
 **Step 1: Individual Assessment (3 minutes)**
-Each person quickly rates their organization's current FAIR maturity:
+Each person quickly assess their organization's current FAIR maturity:
 
-| FAIR Principle | Current Score (1-5) | Biggest Challenge |
-|----------------|---------------------|------------------|
-| **Findable** | ___/5 | _______________ |
-| **Accessible** | ___/5 | _______________ |
-| **Interoperable** | ___/5 | _______________ |
-| **Reusable** | ___/5 | _______________ |
+| FAIR Principle | Biggest Challenge |
+|----------------|------------------|
+| **Findable** | _______________ |
+| **Accessible** | _______________ |
+| **Interoperable** | _______________ |
+| **Reusable** | _______________ |
 
 **Step 2: Group Discussion (9 minutes)**
 Share your scores and discuss:

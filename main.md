@@ -64,30 +64,14 @@ introduction to implementation approaches.
 ## Key Learning Outcomes
 
 By completing this course, you will:
-
-**Technical Foundation:**
-- **Understand** the evolution from traditional to cloud-native EO processing and why it matters
-- **Experience** modern Python tools (Xarray, Dask, STAC) through hands-on demonstrations
-- **Explore** ESA's operational cloud platforms and real EO workflows
-- **Recognize** how technical approaches enable scalable, collaborative research
-
-**FAIR Data Principles:**
-- **Understand** the FAIR principles and their specific relevance to Earth Observation
-- **Recognize** FAIR implementation examples in operational EO systems like EarthCODE and EOPF
-- **Assess** your organization's current FAIR readiness and implementation priorities
-- **Connect** FAIR principles to effective EO data use and research applications
-
-**Implementation Capabilities:**
-- **Design** implementation strategies for making EO data Findable, Accessible, Interoperable, and Reusable
-- **Create** actionable plans with realistic timelines and resource requirements
-- **Evaluate** organizational readiness for adopting cloud-native and FAIR approaches
-- **Identify** business cases and benefits for modern EO data management
-
-**Professional Network:**
-- **Connect** with ESA's operational services and expert communities (EarthCODE, EOPF, Pangeo)
-- **Access** ongoing support through platforms and forums
-- **Build** relationships with peers facing similar data management challenges
-- **Join** communities that support continued learning and implementation
+- Understand cloud-native EO processing and how it creates organizational value through improved efficiency and collaboration
+- Experience modern Python tools and platforms through hands-on demonstrations relevant to your sector
+- Assess your organization's current data management practices and identify improvement opportunities
+- Design practical implementation strategies with realistic timelines and resource requirements
+- Recognize how FAIR data principles can improve data utilization in your organizational context
+- Evaluate technical solutions and platforms based on your specific operational needs
+- Connect with expert communities and ongoing support resources for continued implementation
+- Build professional relationships with peers facing similar data management challenges
 
 ## Interactive Learning Approach
 

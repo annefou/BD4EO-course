@@ -1,39 +1,16 @@
-# Part 1: FAIR Principles in Earth Observation Context 
+# Part 1: FAIR Principles and Open Science in Earth Observation Context 
+
 
 ## What is FAIR?
 
 FAIR principles ensure that Earth Observation data and research outputs are:
 
-### **F**indable
-*The first step in (re)using data is to find them*
+```{figure} https://esa-earthcode.github.io/documentation/img/FAIR-interpretation.png
+:name: FAIR
+:width: 900px
+Findable, Accessible, Interoperable and Reusable (FAIR)
+```
 
-- **F1**: (meta)data are assigned a globally unique and persistent identifier
-- **F2**: data are described with rich metadata
-- **F3**: metadata clearly include the identifier of the data they describe
-- **F4**: (meta)data are registered or indexed in a searchable resource
-
-### **A**ccessible
-*Users need to know how data can be accessed, including authentication*
-
-- **A1**: (meta)data are retrievable by their identifier using a standardised protocol
-- **A1.1**: the protocol is open, free, and universally implementable
-- **A1.2**: the protocol allows for authentication and authorisation where necessary
-- **A2**: metadata are accessible, even when the data are no longer available
-
-### **I**nteroperable
-*Data need to integrate with other data and interoperate with applications*
-
-- **I1**: (meta)data use a formal, accessible, shared, and broadly applicable language
-- **I2**: (meta)data use vocabularies that follow FAIR principles
-- **I3**: (meta)data include qualified references to other (meta)data
-
-### **R**eusable
-*The ultimate goal of FAIR is to optimise the reuse of data*
-
-- **R1**: (meta)data are richly described with accurate and relevant attributes
-- **R1.1**: (meta)data are released with a clear and accessible data usage license
-- **R1.2**: (meta)data are associated with detailed provenance
-- **R1.3**: (meta)data meet domain-relevant community standards
 
 ## Why FAIR Matters for Earth Observation
 
@@ -54,3 +31,20 @@ Data can be FAIR without being fully open. The key is that access conditions are
 - **FAIR but Restricted**: Commercial satellite data with clear licensing and access procedures
 - **FAIR but Embargoed**: Research datasets with time-limited access restrictions
 
+## What is Open Science?
+
+Open Science is a cultural shift in how we create, share, and use scientific knowledge - with an emphasis on transparency, openness, and enabling public access and reuse of research. It benefits not only science, but also society and the economy, by fostering collaboration, credibility, and innovation.
+
+It is implemented through practices like Open Access to publications, Open Source software, Open Data, and Open Educational Resources and — and built on four pillars, 4 Rs — Reliable, Reproducible, Reusable, and Relevant
+
+
+```{figure} https://esa-earthcode.github.io/documentation/img/4RsOpenScience.png
+:name: 4'R of Open Science
+:width: 600px
+4 Rs — Reliable, Reproducible, Reusable, and Relevant  —  of Open Science
+```
+
+:::{tip} Collaboration Tips
+In Open Science, sharing while doing—integrating FAIR principles early—maximizes research impact, fosters collaboration, and ensures transparency and accessibility.
+
+:::
